@@ -10,3 +10,25 @@ h1{font-size:52px;margin:20px 0}.lead{color:#cbd5e1}
 .skills{display:flex;flex-wrap:wrap;gap:10px}.skills span{background:#2563eb;padding:10px 14px;border-radius:999px}
 .footer{text-align:center;padding:30px;color:#94a3b8}
 @media(max-width:768px){.hero-grid{grid-template-columns:1fr}h1{font-size:36px}}
+.tech-stack{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-top:20px;
+}
+
+.tech-stack span{
+    background:#2563eb;
+    color:white;
+    padding:8px 14px;
+    border-radius:999px;
+    font-size:14px;
+}
+
+.card{
+    transition:all .3s ease;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
